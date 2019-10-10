@@ -33,11 +33,6 @@ class NavigationBar extends React.Component {
               </NavLink>
             </Nav>
             <Nav>
-              <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/contact">
-                Contact
-              </NavLink>
-            </Nav>
-            <Nav>
               <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/resume">
                 Resume
               </NavLink>
@@ -45,6 +40,11 @@ class NavigationBar extends React.Component {
             <Nav>
               <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/Projects">
                 Projects
+              </NavLink>
+            </Nav>
+            <Nav>
+              <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/contact">
+                Contact
               </NavLink>
             </Nav>
             </Nav>
