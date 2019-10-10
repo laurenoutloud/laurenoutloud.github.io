@@ -1,0 +1,8 @@
+.about .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-image{
+    margin-right: 1em;
+}
