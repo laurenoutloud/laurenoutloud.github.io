@@ -1,8 +1,14 @@
-import Resume from 'react';
+import React from 'react';
+import NavigationBar from "../components/NavigationBar";
 
-class About extends React.Component{
+class Resume extends React.Component{
     render(){
-
+        return(
+            <div>
+            <NavigationBar />
+            <h1>Resume</h1>
+            </div>
+        );
     }
 }
 
