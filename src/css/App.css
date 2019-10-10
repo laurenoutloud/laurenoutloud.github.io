@@ -5,3 +5,7 @@
     border-radius: 15px;
     overflow: hidden;
 }
+
+.app .content {
+    padding: 1em;
+}

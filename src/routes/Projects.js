@@ -1,11 +1,9 @@
 import React from 'react';
-import NavigationBar from "../components/NavigationBar";
 
 class Projects extends React.Component{
     render(){
         return(
         <div>
-            <NavigationBar pageName="Projects"/>
             <h1>Projects</h1>
         </div>
         );
