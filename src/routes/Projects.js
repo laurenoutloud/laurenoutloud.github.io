@@ -5,7 +5,7 @@ class Projects extends React.Component{
     render(){
         return(
         <div>
-            <NavigationBar />
+            <NavigationBar pageName="Projects"/>
             <h1>Projects</h1>
         </div>
         );

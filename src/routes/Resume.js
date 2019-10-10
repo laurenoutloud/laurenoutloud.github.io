@@ -5,7 +5,7 @@ class Resume extends React.Component{
     render(){
         return(
             <div>
-            <NavigationBar />
+            <NavigationBar pageName="Resume"/>
             <h1>Resume</h1>
             </div>
         );

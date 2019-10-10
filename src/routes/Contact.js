@@ -5,7 +5,7 @@ class Contact extends React.Component{
     render(){
         return(
             <div>
-                <NavigationBar />
+                <NavigationBar pageName="Contact" />
                 <h1>Contact</h1>
             </div>
         );

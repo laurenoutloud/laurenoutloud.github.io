@@ -5,7 +5,7 @@ class About extends React.Component{
     render(){
         return(
             <div>
-                <NavigationBar />
+                <NavigationBar pageName="About"/>
                 <h1>About</h1>
             </div>
         );
