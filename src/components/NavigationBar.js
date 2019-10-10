@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Navbar";
+import "../css/NavigationBar.css";
+import logo from '../images/logo.png';
 
 class NavigationBar extends React.Component {
     constructor(props){
@@ -10,8 +12,10 @@ class NavigationBar extends React.Component {
     render() {
     return (
       <div className="navigationBar">
-        <Navbar collapseOnSelect bg="dark" expand="lg" variant="dark">
-          <Navbar.Brand>Lauren Finley</Navbar.Brand>
+        <Navbar collapseOnSelect={true} expand="lg" variant="dark">
+          <Navbar.Brand>
+            <img src={logo}/>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse>
             <Nav>
