@@ -5,3 +5,14 @@
 .home p {
     font-style: italic;
 }
+
+.homePhoto {
+    display: inline;
+    height: 15em;    
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
