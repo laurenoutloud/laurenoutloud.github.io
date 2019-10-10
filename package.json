@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "rm -rf dist && parcel build index.html",
+    "build": "rm -rf dist && parcel build index.html  --public-url /laurenoutloud.github.io/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
