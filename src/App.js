@@ -5,6 +5,7 @@ import Contact from "./routes/Contact";
 import Home from "./routes/Home";
 import Resume from "./routes/Resume";
 import Projects from "./routes/Projects";
+import Container from "react-bootstrap/Container";
 import "./css/App.css";
 
 class App extends React.Component{

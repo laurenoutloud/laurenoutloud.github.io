@@ -3,5 +3,12 @@
 }
 
 .test {
-    color: 'hsla(0,0%,100%,.5)';
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-family: Papyrus, Segoe Print;
+    font-size: 3em;
+    padding-left: 1em;
 }

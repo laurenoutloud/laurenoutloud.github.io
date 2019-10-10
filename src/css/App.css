@@ -1,0 +1,7 @@
+.app {
+    background-color: white;
+    margin: 1em;
+    opacity: .80;
+    border-radius: 15px;
+    overflow: hidden;
+}
