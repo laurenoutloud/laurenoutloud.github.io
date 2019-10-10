@@ -14,7 +14,7 @@ class NavigationBar extends React.Component {
       <div className="navigationBar">
         <Navbar expand="lg" variant="dark">
           <Navbar.Brand>
-            <div className="test">
+            <div className="title">
             <img src={logo} alt="logo"/>
             <div className="name">Lauren Finley</div>
             </div>

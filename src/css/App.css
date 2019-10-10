@@ -9,3 +9,15 @@
 .app .content {
     padding: 1em;
 }
+
+h1 {
+    font-size: 8.0vmin;
+}
+
+h2 {
+   font-size: 8.0vmin; 
+}
+
+p {
+    font-size: 4.0vmin;
+}

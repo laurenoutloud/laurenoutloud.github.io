@@ -2,13 +2,17 @@
     background-color: #855b2e;
 }
 
-.test {
+.title {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .name {
     font-family: Papyrus, Segoe Print;
-    font-size: 3em;
-    padding-left: 1em;
+    font-size: 12vmin;
+}
+
+.navbar a{
+    font-size: 2.0vmax;
 }
