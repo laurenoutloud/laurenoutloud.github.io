@@ -10,7 +10,7 @@ class NavigationBar extends React.Component {
   }
   render() {
     return (
-      <div className="navigation-bar">
+      <div className="navigationBar">
         <Navbar>
           <NavbarBrand tag={Link} to="/">
             <div className="brandContent">

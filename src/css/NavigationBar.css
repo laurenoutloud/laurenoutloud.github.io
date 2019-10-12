@@ -1,5 +1,5 @@
 /*Overwrites reactstraps css*/
-.navbar {
+.navigationBar .navbar {
     background-color: #855b2e;
     display:flex;
     justify-content: space-between;
