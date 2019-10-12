@@ -11,12 +11,10 @@
     align-items: center;
     flex-wrap: wrap;
     font-family: Papyrus, Segoe Print;
-    font-size: 9.5vmin;
 }
 
 .navbar a{
-    color: hsla(0,0%,100%,.5); 
-    font-size: 3.5vmin;
+    color: hsla(0,0%,100%,.5);
 }
 
 .navbar a:hover{
