@@ -5,8 +5,8 @@
 
 .about-image{
     margin-right: 1em;
+    float: left;
 }
 
 .about .introduction {
-    display: flex;
 }
