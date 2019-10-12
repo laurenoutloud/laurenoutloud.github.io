@@ -6,22 +6,20 @@ import "../css/NavigationBar.css";
 import logo from "../images/logo.png";
 
 class NavigationBar extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
   }
   render() {
     return (
       <div className="navigationBar">
-        <Navbar expand="lg" variant="dark">
+        <Navbar expand="lg" variant="dark" sticky="top">
           <Navbar.Brand>
-            <div className="title">
-            <img src={logo} alt="logo"/>
-            <div className="name">Lauren Finley</div>
+            <div className="brandContent">
+              <img src={logo} alt="logo" />
+              Lauren Finley
             </div>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-            <Nav>
+          <Nav>
             <Nav>
               <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/">
                 Home
@@ -47,8 +45,7 @@ class NavigationBar extends React.Component {
                 Contact
               </NavLink>
             </Nav>
-            </Nav>
-          </Navbar.Collapse>
+          </Nav>
         </Navbar>
       </div>
     );

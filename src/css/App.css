@@ -3,7 +3,7 @@
     margin: 1em;
     opacity: .80;
     border-radius: 15px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .app .content {

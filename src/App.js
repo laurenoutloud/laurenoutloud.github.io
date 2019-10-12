@@ -13,7 +13,7 @@ class App extends React.Component {
     document.body.style.backgroundColor = "adad85"; //TODO: move somewhere better
     return (
       <div className="app">
-        <NavigationBar collapse="true" />
+        <NavigationBar/>
         <div className="content">
           <Switch>
             <Route exact path="/about" render={() => <About />} />

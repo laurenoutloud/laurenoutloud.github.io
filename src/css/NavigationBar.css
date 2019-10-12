@@ -1,14 +1,13 @@
 .navbar {
     background-color: #855b2e;
+    display:flex;
+    justify-content: space-between;
 }
 
-.title {
+.brandContent {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.name {
     font-family: Papyrus, Segoe Print;
     font-size: 12vmin;
 }
