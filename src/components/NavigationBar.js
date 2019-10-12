@@ -1,7 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 import "../css/NavigationBar.css";
 import logo from "../images/logo.png";
 
@@ -11,40 +10,30 @@ class NavigationBar extends React.Component {
   }
   render() {
     return (
-      <div className="navigationBar">
-        <Navbar expand="lg" variant="dark" sticky="top">
-          <Navbar.Brand>
+      <div className="navigation-bar">
+        <Navbar>
+          <NavbarBrand tag={Link} to="/">
             <div className="brandContent">
               <img src={logo} alt="logo" />
               Lauren Finley
             </div>
-          </Navbar.Brand>
+          </NavbarBrand>
           <Nav>
-            <Nav>
-              <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/">
-                Home
-              </NavLink>
-            </Nav>
-            <Nav>
-              <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/about">
-                About
-              </NavLink>
-            </Nav>
-            <Nav>
-              <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/resume">
-                Resume
-              </NavLink>
-            </Nav>
-            <Nav>
-              <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/Projects">
-                Projects
-              </NavLink>
-            </Nav>
-            <Nav>
-              <NavLink style={{ color: "hsla(0,0%,100%,.5)" }} to="/contact">
-                Contact
-              </NavLink>
-            </Nav>
+            <NavItem>
+              <NavLink tag={Link} to="/">Home</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag={Link} to="/about">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag={Link} to="/resume">Resume</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag={Link} to="/projects">Projects</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag ={Link} to="contact">Contact</NavLink>
+            </NavItem>
           </Nav>
         </Navbar>
       </div>
