@@ -3,7 +3,7 @@
     margin: 1em;
     opacity: .80;
     border-radius: 15px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .app .content {
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-   font-size: 8.0vmin; 
+   font-size: 6.0vmin; 
 }
 
 p {
