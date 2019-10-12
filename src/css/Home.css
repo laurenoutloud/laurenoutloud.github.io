@@ -7,12 +7,7 @@
 }
 
 .homePhoto {
-    display: inline;
-    height: 15em;    
-}
-
-.home {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    float: right; 
+    height: 15vmax; 
+    margin: 0 0em 1.5em 1em;
 }
