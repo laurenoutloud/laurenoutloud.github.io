@@ -1,5 +1,10 @@
 import React from "react";
 import naturePhoto from "../images/nature-photo.jpg";
+import ucfLogo from "../images/ucf.png";
+import ttuLogo from "../images/ttu.png";
+import kcpLogo from "../images/kcp.png";
+import {Card, CardImg, CardText, CardDeck, CardTitle, CardSubtitle, CardBody} from 'reactstrap';
+import '../css/About.css'
 
 export const introduction = () => (
   <div className="introduction">
@@ -36,7 +41,6 @@ export const introduction = () => (
       couldn't be more thrilled to be starting the next chapter of my life.
     </p>
     <h3>Goals</h3>
-    <p>
       The following are goals that I would like to accomplish within the next
       five years:
       <ul>
@@ -46,7 +50,6 @@ export const introduction = () => (
         <li>Travel to at least 3 new countries</li>
         <li>Read 100 books (to include listening to audiobooks)</li>
       </ul>
-    </p>
     <h3>Honors & Awards</h3>
     <p>
       <strong>Institutional Honors. </strong>I graduated with honors cum laude
@@ -75,7 +78,7 @@ export const introduction = () => (
 export const hobbies = () => (
   <div className="hobbies">
     <h3>Hobbies</h3>
-    <p>
+    
       <ul>
         <li>
           <strong>Reading. </strong>I enjoy reading, especially non-fiction and
@@ -102,9 +105,8 @@ export const hobbies = () => (
           Hans Zimmer and Brian Tyler are two of my favorites.
         </li>
       </ul>
-    </p>
+    
     <h3>Interests</h3>
-    <p>
       <ul>
         <li>
           <strong>Travel. </strong>I love traveling. Visiting new places opens up so many doors and can completely change your perspective on life.
@@ -122,11 +124,47 @@ export const hobbies = () => (
           <strong>Philosophy & Psychology. </strong>I've taken an interest in studying how/why people think the way they do and why they act the way they act.
         </li>
       </ul>
-    </p>
   </div>
 );
 
-export const education = () => <div>Education</div>;
+export const education = () => (
+<div className="education">
+    <CardDeck>
+        <Card>
+            <CardImg width="25%" src={ttuLogo}/>
+            <CardBody>
+                <CardTitle>Texas Tech University</CardTitle>
+                <CardSubtitle>Fall 2015 - Spring 2018</CardSubtitle>
+                <CardText>
+                <strong>Major: </strong>Computer Science <br/>
+                    <strong>Minors: </strong>Japanese, Mathematics <br/>
+                    <strong>GPA: </strong>3.6 <br/>
+                    <strong>Relevant Coursework:</strong>Data Structures, Theory of Automata, Design/Analysis of Algorithms, Software Engineering I, Computer Architecture <br/>
+                    <strong>Institutional Honors: </strong>Cum Laude
+                </CardText>
+            </CardBody>
+        </Card>
+        <Card>
+            <CardImg src={ucfLogo}/>
+            <CardBody>
+                <CardTitle>University of Central Florida</CardTitle>
+                <CardSubtitle>Fall 2013 - Summer 2015</CardSubtitle>
+                <CardText>
+                    <strong>Relevant Coursework: </strong>Introduction to Discrete Structures, Object Oriented Programming
+                </CardText>
+            </CardBody>
+        </Card>
+        <Card>
+            <CardImg src={kcpLogo}/>
+            <CardBody>
+                <CardTitle>KCP International Language School</CardTitle>
+                <CardSubtitle>Fall 2016 - Spring 2017</CardSubtitle>
+                <CardText></CardText>
+            </CardBody>
+        </Card>
+    </CardDeck>
+</div>
+    );
 
 export const workExperience = () => <div>Work</div>;
 
