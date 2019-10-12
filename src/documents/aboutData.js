@@ -68,7 +68,7 @@ export const introduction = () => (
     </p>
 
     <p>
-      <strong>Pagasus Gold Scholarship Recipient.</strong>The Pegasus Gold
+      <strong>Pegasus Gold Scholarship Recipient.</strong>The Pegasus Gold
       Scholarship is a four year academic scholarship offered by UCF to incoming
       freshman who excelled academically in high school.
     </p>

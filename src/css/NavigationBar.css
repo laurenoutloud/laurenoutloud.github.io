@@ -6,6 +6,7 @@
 }
 
 .brandContent {
+    font-size: 6.25vmin;
     color: white;
     display: flex;
     align-items: center;
@@ -19,4 +20,8 @@
 
 .navbar a:hover{
     color: white;
+}
+
+.navbar-toggler{
+    color: hsla(0,0%,100%,.5);
 }

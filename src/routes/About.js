@@ -14,13 +14,11 @@ class About extends React.Component {
             <Tab>Intro</Tab>
             <Tab>Hobbies & Interests</Tab>
             <Tab>Education</Tab>
-            <Tab>Work Experience</Tab>
             <Tab>Affiliate Organizations</Tab>
           </TabList>
           <TabPanel>{introduction()}</TabPanel>
           <TabPanel>{hobbies()}</TabPanel>
           <TabPanel>{education()}</TabPanel>
-          <TabPanel>Work Experience</TabPanel>
           <TabPanel>Affiliate Organizations</TabPanel>
         </Tabs>
         <div className="content">

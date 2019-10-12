@@ -1,11 +1,11 @@
 .app {
     background-color: white;
-    margin: 1em;
+    margin: 1.0em;
     opacity: .80;
     border-radius: 15px;
     overflow: hidden;
 }
 
 .app .content {
-    padding: 1em;
+    padding: 1.5em;
 }
