@@ -6,3 +6,7 @@
 .about-image{
     margin-right: 1em;
 }
+
+.about .introduction {
+    display: flex;
+}
