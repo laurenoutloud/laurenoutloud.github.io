@@ -1,4 +1,5 @@
 import React from "react";
+import { projects } from "../documents/projectData";
 
 class Projects extends React.Component {
   render() {
@@ -7,11 +8,12 @@ class Projects extends React.Component {
         <h1>Projects</h1>
         <p>
           Documentation of current and previous projects will be added shortly,
-          but for now please check out my github by {" "}
+          but for now please check out my github by{" "}
           <a href="https://github.com/laurenoutloud" target="_blank">
-          clicking here!
+            clicking here!
           </a>
         </p>
+        {projects()}
       </div>
     );
   }
