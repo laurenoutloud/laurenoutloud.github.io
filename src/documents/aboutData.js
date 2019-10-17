@@ -1,10 +1,19 @@
 import React from "react";
+import { Media } from "reactstrap";
 import naturePhoto from "../images/nature-photo.jpg";
 import ucfLogo from "../images/ucf.png";
 import ttuLogo from "../images/ttu.png";
 import kcpLogo from "../images/kcp.png";
-import {Card, CardImg, CardText, CardDeck, CardTitle, CardSubtitle, CardBody} from 'reactstrap';
-import '../css/About.css'
+import {
+  Card,
+  CardImg,
+  CardText,
+  CardDeck,
+  CardTitle,
+  CardSubtitle,
+  CardBody
+} from "reactstrap";
+import "../css/About.css";
 
 export const introduction = () => (
   <div className="introduction">
@@ -41,21 +50,20 @@ export const introduction = () => (
       couldn't be more thrilled to be starting the next chapter of my life.
     </p>
     <h3>Goals</h3>
-      The following are goals that I would like to accomplish within the next
-      five years:
-      <ul>
-        <li>Become a Google Developer Expert</li>
-        <li>Become fluent in Japanese</li>
-        <li>Become certified in at least one programming language</li>
-        <li>Travel to at least 3 new countries</li>
-        <li>Read 100 books (to include listening to audiobooks)</li>
-      </ul>
+    The following are goals that I would like to accomplish within the next five
+    years:
+    <ul>
+      <li>Become a Google Developer Expert</li>
+      <li>Become fluent in Japanese</li>
+      <li>Become certified in at least one programming language</li>
+      <li>Travel to at least 3 new countries</li>
+      <li>Read 100 books (to include listening to audiobooks)</li>
+    </ul>
     <h3>Honors & Awards</h3>
     <p>
       <strong>Institutional Honors. </strong>I graduated with honors cum laude
       from Texas Tech University.{" "}
     </p>
-
     <p>
       <strong>Boren Scholar. </strong>In April of 2016 I was selected as a
       recipient of the Boren Scholarship award for the amount of $20,000. This
@@ -66,7 +74,6 @@ export const introduction = () => (
       </a>
       .
     </p>
-
     <p>
       <strong>Pegasus Gold Scholarship Recipient.</strong>The Pegasus Gold
       Scholarship is a four year academic scholarship offered by UCF to incoming
@@ -78,94 +85,123 @@ export const introduction = () => (
 export const hobbies = () => (
   <div className="hobbies">
     <h3>Hobbies</h3>
-    
-      <ul>
-        <li>
-          <strong>Reading. </strong>I enjoy reading, especially non-fiction and
-          self improvement books, and if I come across a subject that I find
-          interesting I like to read up on it.
-        </li>
-        <li>
-          <strong>Exercising. </strong>There's no better way to clear your mind
-          than to go for a run or to pump some iron. Recently I have been
-          getting into yoga.
-        </li>
-        <li>
-          <strong>Gaming. </strong>Some of my favorite games include Halo,
-          Spyro, and Runescape.
-        </li>
-        <li>
-          <strong>Photography. </strong>While I don't consider myself
-          photographer, I do have a nice camera and sometimes I like to
-          experiment around with it.
-        </li>
-        <li>
-          <strong>Movie Soundtracks. </strong>Whenever I need some extra
-          motivation, I like to listen to the soundtracks of renowned composers.
-          Hans Zimmer and Brian Tyler are two of my favorites.
-        </li>
-      </ul>
-    
+
+    <ul>
+      <li>
+        <strong>Reading. </strong>I enjoy reading, especially non-fiction and
+        self improvement books, and if I come across a subject that I find
+        interesting I like to read up on it.
+      </li>
+      <li>
+        <strong>Exercising. </strong>There's no better way to clear your mind
+        than to go for a run or to pump some iron. Recently I have been getting
+        into yoga.
+      </li>
+      <li>
+        <strong>Gaming. </strong>Some of my favorite games include Halo, Spyro,
+        and Runescape.
+      </li>
+      <li>
+        <strong>Photography. </strong>While I don't consider myself
+        photographer, I do have a nice camera and sometimes I like to experiment
+        around with it.
+      </li>
+      <li>
+        <strong>Movie Soundtracks. </strong>Whenever I need some extra
+        motivation, I like to listen to the soundtracks of renowned composers.
+        Hans Zimmer and Brian Tyler are two of my favorites.
+      </li>
+    </ul>
+
     <h3>Interests</h3>
-      <ul>
-        <li>
-          <strong>Travel. </strong>I love traveling. Visiting new places opens up so many doors and can completely change your perspective on life.
-        </li>
-        <li>
-          <strong>Food. </strong>As long as it's not painfully spicy, I'm willing to try anything.
-        </li>
-        <li>
-          <strong>Technology. </strong>When I read and study about all of the advancements in medicine, simulation trainings, and really just technological advancements throughout society as a whole- I find it breathtaking.
-        </li>
-        <li>
-          <strong>Japan. </strong>I studied abroad in Japan for an academic year, and I learned so much about Japan and Japanese culture. I plan on returning to Japan again in the future.
-        </li>
-        <li>
-          <strong>Philosophy & Psychology. </strong>I've taken an interest in studying how/why people think the way they do and why they act the way they act.
-        </li>
-      </ul>
+    <ul>
+      <li>
+        <strong>Travel. </strong>I love traveling. Visiting new places opens up
+        so many doors and can completely change your perspective on life.
+      </li>
+      <li>
+        <strong>Food. </strong>As long as it's not painfully spicy, I'm willing
+        to try anything.
+      </li>
+      <li>
+        <strong>Technology. </strong>When I read and study about all of the
+        advancements in medicine, simulation trainings, and really just
+        technological advancements throughout society as a whole- I find it
+        breathtaking.
+      </li>
+      <li>
+        <strong>Japan. </strong>I studied abroad in Japan for an academic year,
+        and I learned so much about Japan and Japanese culture. I plan on
+        returning to Japan again in the future.
+      </li>
+      <li>
+        <strong>Philosophy & Psychology. </strong>I've taken an interest in
+        studying how/why people think the way they do and why they act the way
+        they act.
+      </li>
+    </ul>
   </div>
 );
 
 export const education = () => (
-<div className="education">
+  <div className="education">
     <CardDeck>
-        <Card>
-            <CardImg width="25%" src={ttuLogo}/>
-            <CardBody>
-                <CardTitle>Texas Tech University</CardTitle>
-                <CardSubtitle>Fall 2015 - Spring 2018</CardSubtitle>
-                <CardText>
-                <strong>Major: </strong>Computer Science <br/>
-                    <strong>Minors: </strong>Japanese, Mathematics <br/>
-                    <strong>GPA: </strong>3.6 <br/>
-                    <strong>Relevant Coursework:</strong>Data Structures, Theory of Automata, Design/Analysis of Algorithms, Software Engineering I, Computer Architecture <br/>
-                    <strong>Institutional Honors: </strong>Cum Laude
-                </CardText>
-            </CardBody>
-        </Card>
-        <Card>
-            <CardImg src={ucfLogo}/>
-            <CardBody>
-                <CardTitle>University of Central Florida</CardTitle>
-                <CardSubtitle>Fall 2013 - Summer 2015</CardSubtitle>
-                <CardText>
-                    <strong>Relevant Coursework: </strong>Introduction to Discrete Structures, Object Oriented Programming
-                </CardText>
-            </CardBody>
-        </Card>
-        <Card>
-            <CardImg src={kcpLogo}/>
-            <CardBody>
-                <CardTitle>KCP International Language School</CardTitle>
-                <CardSubtitle>Fall 2016 - Spring 2017</CardSubtitle>
-                <CardText></CardText>
-            </CardBody>
-        </Card>
+      <Card>
+        <CardImg width="25%" src={ttuLogo} />
+        <CardBody>
+          <CardTitle>Texas Tech University</CardTitle>
+          <CardSubtitle>Fall 2015 - Spring 2018</CardSubtitle>
+          <CardText>
+            <strong>Major: </strong>Computer Science <br />
+            <strong>Minors: </strong>Japanese, Mathematics <br />
+            <strong>GPA: </strong>3.6 <br />
+            <strong>Relevant Coursework:</strong>Data Structures, Theory of
+            Automata, Design/Analysis of Algorithms, Software Engineering I,
+            Computer Architecture <br />
+            <strong>Institutional Honors: </strong>Cum Laude
+          </CardText>
+        </CardBody>
+      </Card>
+      <Card>
+        <CardImg src={ucfLogo} />
+        <CardBody>
+          <CardTitle>University of Central Florida</CardTitle>
+          <CardSubtitle>Fall 2013 - Summer 2015</CardSubtitle>
+          <CardText>
+            <strong>Relevant Coursework: </strong>Introduction to Discrete
+            Structures, Object Oriented Programming
+          </CardText>
+        </CardBody>
+      </Card>
+      <Card>
+        <CardImg src={kcpLogo} />
+        <CardBody>
+          <CardTitle>KCP International Language School</CardTitle>
+          <CardSubtitle>Fall 2016 - Spring 2017</CardSubtitle>
+          <CardText></CardText>
+        </CardBody>
+      </Card>
     </CardDeck>
-</div>
-    );
+  </div>
+);
 
 export const workExperience = () => <div>Work</div>;
 
-export const affiliateOrganizations = () => <div>Affiliate Orgs</div>;
+export const affiliateOrganizations = () => {
+  return(
+  <div className="affiliate-organizations">
+    <Media>
+      <Media body>
+        <Media heading>Test Organization 1</Media>
+        Test text
+      </Media>
+    </Media>
+    <Media>
+      <Media body>
+        <Media heading>Test Organization 2</Media>
+        Test text
+      </Media>
+    </Media>
+  </div>
+  );
+};

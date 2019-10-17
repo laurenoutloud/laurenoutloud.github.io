@@ -2,7 +2,7 @@ import React from "react";
 import "../css/About.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import {introduction, hobbies, education} from "../documents/aboutData";
+import {introduction, hobbies, education, affiliateOrganizations} from "../documents/aboutData";
 
 class About extends React.Component {
   render() {
@@ -19,7 +19,7 @@ class About extends React.Component {
           <TabPanel>{introduction()}</TabPanel>
           <TabPanel>{hobbies()}</TabPanel>
           <TabPanel>{education()}</TabPanel>
-          <TabPanel>Affiliate Organizations</TabPanel>
+          <TabPanel>{affiliateOrganizations()}</TabPanel>
         </Tabs>
         <div className="content">
         </div>
