@@ -190,18 +190,7 @@ export const workExperience = () => <div>Work</div>;
 export const affiliateOrganizations = () => {
   return(
   <div className="affiliate-organizations">
-    <Media>
-      <Media body>
-        <Media heading>Test Organization 1</Media>
-        Test text
-      </Media>
-    </Media>
-    <Media>
-      <Media body>
-        <Media heading>Test Organization 2</Media>
-        Test text
-      </Media>
-    </Media>
+    <h2>Coming Soon</h2>
   </div>
   );
 };

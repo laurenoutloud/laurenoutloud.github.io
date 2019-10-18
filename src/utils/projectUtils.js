@@ -11,6 +11,9 @@ export const getProjects = () => {
         <Media body>
           <Media heading>{project.title}</Media>
           {project.text}
+          <br/>
+          <i>
+          (Click <a href={project.link} target="_blank"> here</a> for more information)</i>
         </Media>
         <Media right>
           <Media  object className="image" src={project.image} />
