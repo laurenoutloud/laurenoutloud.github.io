@@ -1,10 +1,11 @@
 import React from "react";
-import { projects } from "../documents/projectData";
+import { getProjects } from "../utils/projectUtils";
+import "../css/Projects.css";
 
 class Projects extends React.Component {
   render() {
     return (
-      <div>
+      <div className="projects">
         <h1>Projects</h1>
         <p>
           Documentation of current and previous projects will be added shortly,
@@ -13,7 +14,7 @@ class Projects extends React.Component {
             clicking here!
           </a>
         </p>
-        {projects()}
+        {getProjects()}
       </div>
     );
   }

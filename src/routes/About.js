@@ -2,7 +2,7 @@ import React from "react";
 import "../css/About.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import {introduction, hobbies, education, affiliateOrganizations} from "../documents/aboutData";
+import {introduction, hobbies, education, affiliateOrganizations} from "../utils/aboutUtils";
 
 class About extends React.Component {
   render() {
