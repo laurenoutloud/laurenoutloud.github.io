@@ -2,6 +2,11 @@ const ABOUT_DATA = {
     organizations: [
         {
             image: "",
+            title: "Women Who Code",
+            text: "Women Who Code is an organization that inspires women to excel in technology careers."
+        },
+        {
+            image: "",
             title: "Association of Computing Machinery",
             text: "ACM is the world's largest educational and scientific computing society. As a member at Texas Tech, I participate in mock interviews, cyber security workshops, internship panels, company info sessions, and so much more. ACM has helps me to prepare professionally and learn more about computer science in the industry."
         },
