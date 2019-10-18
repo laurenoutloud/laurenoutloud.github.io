@@ -19,3 +19,9 @@
 .about .card-img {
     width: 150px;
 }
+
+.about .media {
+    margin: .5em;
+    padding: .5em;
+    border: 2px dashed;
+}

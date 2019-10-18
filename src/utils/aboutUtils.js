@@ -13,6 +13,7 @@ import {
   CardSubtitle,
   CardBody
 } from "reactstrap";
+import {ABOUT_DATA} from "../data/aboutData";
 import "../css/About.css";
 
 export const introduction = () => (
@@ -185,9 +186,20 @@ export const education = () => (
 export const workExperience = () => <div>Work</div>;
 
 export const affiliateOrganizations = () => {
-  return(
-  <div className="affiliate-organizations">
-    <h2>Coming Soon</h2>
-  </div>
-  );
+  let affiliateOrganizationList = [];
+
+  for (let i = 0; i < ABOUT_DATA.organizations.length; i++){
+    let organization = ABOUT_DATA.organizations[i];
+    affiliateOrganizationList.push(
+      <Media>
+        <Media body>
+          <Media heading>
+            {organization.title}
+          </Media>
+            {organization.text}
+        </Media>
+      </Media>
+    )
+  }
+  return affiliateOrganizationList;
 };
