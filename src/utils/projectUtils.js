@@ -12,8 +12,8 @@ export const getProjects = () => {
           <Media heading>{project.title}</Media>
           {project.text}
         </Media>
-        <Media left>
-          <Media object className="image" src={project.image} />
+        <Media right>
+          <Media  object className="image" src={project.image} />
         </Media>
       </Media>
     );
