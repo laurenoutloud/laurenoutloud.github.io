@@ -21,33 +21,30 @@ export const introduction = () => (
     <h3>About Me</h3>
     <p>
       Hi, my name is Lauren! I am a software developer, thrill seeker, and world
-      traveler. I am currently seeking full-time employment opportunities both
+      traveler. I'm currently seeking full-time employment opportunities both
       within the U.S. and abroad as a full-time software engineer.
     </p>
     <h3>Bio</h3>
     <p>
       I grew up as a military child alongside two brothers. Both of my parents
       were in the U.S. Army, and as a result our family moved every couple of
-      years. In addition to the U.S., I have lived in Germany, South Korea, and
-      Belgium, and have traveled to several other countries such as China,
+      years. In addition to the U.S. I have lived in Germany, South Korea, and
+      Belgium- and have traveled to several other countries such as China,
       Italy, Austria, England, France, Spain, and Japan. I got to experience the
       world at such a young age, and those experiences made me love to meet new
       people, visit new places, and try new things. <br />
       <br /> Upon graduating from high school, I attended the University of
-      Central Florida (UCF) for two years. Originally, I declared my major in
-      biomedical sciences- but switched to computer science after my first year
-      of college to pursue my passion. I joined the Association for Computing
+      Central Florida (UCF) for two years. Originally I declared my major in
+      biomedical sciences, but switched to computer science after my first year to pursue my passion. I joined the Association for Computing
       Machinery (ACM) at UCF, and I competed in my first programming competition
       hosted by Deloitte. It was a great experience, and it inspired me to want
-      to program on a more competitive level. The fall of 2015, I transferred to
+      to program on a more competitive level. In the fall of 2015, I transferred to
       Texas Tech University (TTU) to be closer to family and to take advantage
-      of their study abroad programs. Since transferring to TTU, I have joined
+      of their study abroad programs. At TTU I joined
       several computer science and engineering related organizations such as ACM
       @ TTU, Software Development Club, and the Society of Women Engineers.
       After completing my first year at TTU, I spent an entire academic year in
-      Tokyo, Japan studying the Japanese language and culture. I recently
-      completed my final semester of education at the undergraduate level, and I
-      couldn't be more thrilled to be starting the next chapter of my life.
+      Tokyo, Japan studying the Japanese language and culture. After completing my undergraduate education, I entered the workforce as a software developer for USAA.
     </p>
     <h3>Goals</h3>
     The following are goals that I would like to accomplish within the next five
