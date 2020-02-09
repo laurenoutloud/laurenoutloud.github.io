@@ -8,15 +8,12 @@ export const getProjects = () => {
     let project = PROJECT_DATA.projects[i];
     projectList.push(
       <Media key={i}>
-        <Media body>
-          <Media heading>{project.title}</Media>
+          <Media body><Media style={{borderBottom: "4px ridge"}} heading>{project.title}</Media>
+          <Media  object className="image" src={project.image} />
           {project.text}
           <br/>
           <i>
           (Click <a href={project.link} target="_blank"> here</a> for more information)</i>
-        </Media>
-        <Media right>
-          <Media  object className="image" src={project.image} />
         </Media>
       </Media>
     );

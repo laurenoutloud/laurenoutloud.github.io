@@ -1,6 +1,7 @@
 .projects .image {
     height: 15vmax;
     padding: .5em;
+    float: right;
 }
 
 .projects .media {
