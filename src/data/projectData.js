@@ -27,7 +27,7 @@ const PROJECT_DATA = {
     },
     {
       image: whnImage,
-      title: "What's HappNin.",
+      title: "What's HappNin",
       text:
         "What’s HappNin is an application designed for anyone who is interested in connecting instantaneously with their friends based on their real-time location and activities that are currently taking place.",
         link: whnPDF
@@ -41,28 +41,28 @@ const PROJECT_DATA = {
     },
     {
       image: MakeOrderImage,
-      title: "Make Order Request.",
+      title: "Make Order Request",
       text:
         "For my Software Engineering 1 course I had to design and develop an interactive web application using use case models. The application was designed to simulate an online shopping website.",
         link: "https://github.com/laurenoutloud/SchoolProjects"
     },
     {
       image: studyStationImage,
-      title: "Study Station. ",
+      title: "Study Station",
       text:
         " Study Station is a web application that is designed to help students plan and organize their study time. Study Station seeks to eliminate distractions and increase productivity by creating a platform that combines the Kanban techique with the Pomodoro technique. The Kanban technique is a workflow methodology that organizes tasks into three categories: To Do, Doing, and Done. The Pomodoro technique is a time management procedure that breaks down tasks into short bursts of productivity followed by short breaks. I utilized the MVC5 (Model View Controller) framework to develop this application.",
         link: studyStationPDF
     },
     {
       image: personalWebsiteImage,
-      title: "Personal Website.",
+      title: "Personal Website",
       text:
         "This my own personal website that I built from scratch. I know there are a ton of website builders and template generators out there, but I thought it would be more fun to develop a website on my own.",
         link: "https://github.com/laurenoutloud/laurenoutloud.github.io"
     },
     {
       image: boggleImage,
-      title: "Boggle Replica. ",
+      title: "Boggle Replica",
       text:
         "As part of my object oriented programming class, I created a digital replica of the Boggle board game as a Java Application."
     }
