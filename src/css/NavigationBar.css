@@ -1,4 +1,8 @@
 /*Overwrites reactstraps css*/
+.navigationBar {
+    
+}
+
 .navigationBar .navbar {
     background-color: #855b2e;
     display:flex;
@@ -11,6 +15,12 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    font-family: Papyrus, Segoe Print;
+}
+
+.navbar p {
+    font-style: italic;
+    color: hsla(0,0%,100%,.5);
     font-family: Papyrus, Segoe Print;
 }
 

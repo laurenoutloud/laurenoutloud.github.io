@@ -4,12 +4,13 @@ import naturePhoto from "../images/nature-photo.jpg";
 import {ABOUT_DATA} from "../data/aboutData";
 import resume from "../documents/resume.pdf";
 import "../css/About.css";
+import selfPhoto from "../images/graduate-photo.jpg";
 import linkedInLogo from "../images/linkedinlogo.png";
 import githubLogo from "../images/githublogo.png";
 
 export const introduction = () => (
   <div className="introduction">
-    <img className="about-image" src={naturePhoto} />
+    <img className="about-image" src={selfPhoto} />
     <h3>About Me</h3>
     <p>
       Hi, my name is Lauren! I am a software developer, thrill seeker, and world

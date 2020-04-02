@@ -4,6 +4,7 @@
 }
 
 .about-image{
+    height: 15vmax; 
     margin-right: 1em;
     float: left;
 }

@@ -26,25 +26,23 @@ class NavigationBar extends React.Component {
               <img src={logo} alt="logo" />
               Lauren Finley
             </div>
+          <p>
+            "The only thing that stands between a person and what they want in
+            life is the will to try and the faith to believe it is possible."
+            -Rich DeVos
+          </p>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle}/>
           <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" onClick={!this.state.isOpen ? "" : this.toggle} navbar>
             <NavItem>
-              <NavLink tag={Link} to="/">Home</NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink tag={Link} to="/about">About</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} to="/resume">Resume</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={Link} to="/projects">Projects</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink tag ={Link} to="contact">Contact</NavLink>
-            </NavItem>
+            
+            
           </Nav>
           </Collapse>
         </Navbar>
