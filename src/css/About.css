@@ -12,3 +12,11 @@
 .affiliate-organizations h6{
     display:inline;
 }
+
+.affiliate-organizations a{
+    color: #212529;
+}
+
+.affiliate-organizations a:hover{
+    color: #adad85;
+}

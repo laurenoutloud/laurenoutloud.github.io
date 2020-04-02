@@ -18,7 +18,7 @@ export const introduction = () => (
     </p>
     <p>
     <h4>Resume</h4>
-    For a downloadable version, click <a href={resume} target="_blank">here</a>.
+    For a downloadable version, click <i><a href={resume} target="_blank">here</a></i>.
     </p>
   </div>
 );
@@ -30,7 +30,7 @@ export const affiliateOrganizations = () => {
     let organization = ABOUT_DATA.organizations[i];
     affiliateOrganizationList.push(
       <p>
-          <h6>{organization.title}. </h6>
+          <a href={organization.link} target="_blank"><h6>{organization.title}. </h6></a>
           {organization.text}
       </p>
     )
