@@ -36,7 +36,7 @@ export const affiliateOrganizations = () => {
     )
   }
   return (
-    <p>
+    <p className="affiliate-organizations">
       <h4>Affiliate Organizations</h4>
       {affiliateOrganizationList}
     </p>
