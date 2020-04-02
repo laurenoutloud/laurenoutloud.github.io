@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink, NavbarToggler, Collapse } from "reactstrap";
 import "../css/NavigationBar.css";
 import logo from "../images/logo.png";
+import logo2 from "../images/logo2.png";
 
 class NavigationBar extends React.Component {
   constructor(props) {
@@ -24,7 +25,7 @@ class NavigationBar extends React.Component {
           <div>
           <NavbarBrand tag={Link} to="/">
             <div className="brandContent">
-              <img src={logo} alt="logo" />
+              <img src={logo2} alt="logo" />
               Lauren Finley
             </div> 
           </NavbarBrand>
