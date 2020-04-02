@@ -12,60 +12,64 @@ import studyStationPDF from "../documents/StudyStationFall2016Portfolio.pdf";
 
 const PROJECT_DATA = {
   projects: [
+    {
+      image: personalWebsiteImage,
+      title: "Personal Website",
+      techStack: "React, Reactstrap, JavaScript, HTML, CSS",
+      text:"This my own personal website that I built from scratch. I know there are a ton of website builders and template generators out there, but I thought it would be more fun to develop a website on my own.",
+      codeLink: "https://github.com/laurenoutloud/laurenoutloud.github.io",
+      liveLink: "https://laurenoutloud.github.io/"
+    },
       {
           image: everdayGamesImage,
           title: "Everyday Games",
+          techStack: "React, Reactstrap, JavaScript, HTML, CSS",
           text: "Everyday Games is a simple website for playing simple games. It is currently in the early stages of development, and has very little functionality. I am working on setting it up to become a small open source project.",
-          link: "https://github.com/laurenoutloud/everyday-games"
+          codeLink: "https://github.com/laurenoutloud/everyday-games",
+          liveLink: "https://laurenoutloud.github.io/everyday-games/"
       },
+      
     {
       image: safeTouchImage,
       title: "SafeTouch",
+      techStack: "C, Arduino Create",
       text:
-        "SafeTouch is a two component system consisting of a small hardware device that can be paired with an Android application. The hardware device will have a button to press when the user feels they are in a dangerous situation. It will communicate with the phone via Bluetooth which will then send an emergency message to the user’s emergency contacts. The application will feature three modes: personal mode, medical mode, and parent mode.",
-        link: safeTouchPDF,
+        "SafeTouch is a two component system consisting of a small hardware device that pairs with an Android application via Bluetooth. Users use a button to automatically send an emergency message to their designated contacts in the case of an emergency.",
+        documentationLink: safeTouchPDF,
     },
     {
       image: whnImage,
       title: "What's HappNin",
+      techStack: "Android Studio, Java",
       text:
         "What’s HappNin is an application designed for anyone who is interested in connecting instantaneously with their friends based on their real-time location and activities that are currently taking place.",
-        link: whnPDF
+        documentationLink: whnPDF
     },
     {
       image: selfCheckoutImage,
       title: "Self Checkout Simulator",
+      techStack: "Java, JSP, MySql, OOP",
       text:
-        "This project is a self checkout simulator that replicates the activities of a standard self checkout machine. More information can be found here.",
-        link: "https://github.com/theSaltyConditional/SE1_finalProject_2017_"
+        "This project is a self checkout simulator that replicates the activities of a standard self checkout machine.",
+        codeLink: "https://github.com/theSaltyConditional/SE1_finalProject_2017_"
     },
     {
       image: MakeOrderImage,
       title: "Make Order Request",
+      techStack: "Java",
       text:
         "For my Software Engineering 1 course I had to design and develop an interactive web application using use case models. The application was designed to simulate an online shopping website.",
-        link: "https://github.com/laurenoutloud/SchoolProjects"
+        codeLink: "https://github.com/laurenoutloud/SchoolProjects/tree/master/HW3MakeOrderRequest"
     },
     {
       image: studyStationImage,
       title: "Study Station",
+      techStack: "MVC, Bootstrap, C#, HTML, CSS, ASP.NET",
       text:
-        " Study Station is a web application that is designed to help students plan and organize their study time. Study Station seeks to eliminate distractions and increase productivity by creating a platform that combines the Kanban techique with the Pomodoro technique. The Kanban technique is a workflow methodology that organizes tasks into three categories: To Do, Doing, and Done. The Pomodoro technique is a time management procedure that breaks down tasks into short bursts of productivity followed by short breaks. I utilized the MVC5 (Model View Controller) framework to develop this application.",
-        link: studyStationPDF
+        " Study Station is a web application that is designed to help students plan and organize their study time. Study Station seeks to eliminate distractions and increase productivity by creating a platform that combines the Kanban techique (organizing tasks by To Do, Doing, Done) with the Pomodoro technique (short bursts of productivity followed by short breaks).",
+      documentationLink: studyStationPDF,
+      codeLink: "https://github.com/laurenoutloud/StudyStation"
     },
-    {
-      image: personalWebsiteImage,
-      title: "Personal Website",
-      text:
-        "This my own personal website that I built from scratch. I know there are a ton of website builders and template generators out there, but I thought it would be more fun to develop a website on my own.",
-        link: "https://github.com/laurenoutloud/laurenoutloud.github.io"
-    },
-    {
-      image: boggleImage,
-      title: "Boggle Replica",
-      text:
-        "As part of my object oriented programming class, I created a digital replica of the Boggle board game as a Java Application."
-    }
   ]
 };
 

@@ -1,9 +1,13 @@
-.projects .image {
-    height: 15vmax;
-    padding: .5em;
-    float: right;
+.projects .project-content {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.projects .media {
-    margin: 1em;
+.projects .card {
+    max-width: 350px;
+    margin: 15px;
+}
+
+.btn {
+    margin-left: 5px;
 }

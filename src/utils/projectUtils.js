@@ -1,21 +1,47 @@
 import React from "react";
-import { Media } from "reactstrap";
+import { Card, Button, CardText, CardBody,
+  CardHeader, CardFooter } from "reactstrap";
 import { PROJECT_DATA } from "../data/projectData";
+
+function getDocumentationLink(link) {
+  if (link) {
+    return (<Button color="secondary" href={link} target="_blank">Documentation</Button>);
+  }
+}
+
+function getLiveLink(link) {
+  if (link) {
+    return (<Button color="success" href={link} target="_blank">Live</Button>);
+  }
+}
+
+function getCodeLink(link) {
+  if (link) {
+    return (<Button color="info" href={link} target="_blank">Code</Button>);
+  }
+}
 
 export const getProjects = () => {
   let projectList = [];
   for (let i = 0; i < PROJECT_DATA.projects.length; i++) {
     let project = PROJECT_DATA.projects[i];
     projectList.push(
-      <Media key={i}>
-          <Media body><Media style={{borderBottom: "4px ridge"}} heading>{project.title}</Media>
-          <Media  object className="image" src={project.image} />
-          {project.text}
-          <br/>
-          <i>
-          (Click <a href={project.link} target="_blank"> here</a> for more information)</i>
-        </Media>
-      </Media>
+      <Card>
+          <CardHeader tag="h3">{project.title}</CardHeader>
+        <CardBody>
+          <img width="100%" src={project.image}/>
+        </CardBody>
+        <CardBody>
+          <CardText tag="h6">{project.techStack}</CardText>
+          <CardText>{project.text}</CardText>
+          
+        </CardBody>
+        <CardFooter>
+          {getLiveLink(project.liveLink)}
+          {getCodeLink(project.codeLink)}
+          {getDocumentationLink(project.documentationLink)}
+        </CardFooter>
+      </Card>
     );
   }
   return projectList;
