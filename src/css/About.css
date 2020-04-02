@@ -6,9 +6,9 @@
 .about-image{
     height: 15vmax; 
     float: right;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #adad85;
+    margin: 5px;
+    padding: 2px;
+    border: 2px solid #adad85;
 }
 
 .affiliate-organizations h6{
