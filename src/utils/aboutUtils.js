@@ -13,11 +13,12 @@ export const introduction = () => (
       Hi, my name is Lauren! I am a software developer, thrill seeker, and world
       traveler. I'm currently seeking employment opportunities as a full stack software engineer.
     </p>
+    <h4>Hobbies & Interests</h4>
     <p>
-    <h4>Hobbies & Interests</h4> Traveling, reading, exercising, gaming, photography, Japan, movie soundtracks, food, technology, philosophy, psychology
+     Traveling, reading, exercising, gaming, photography, Japan, movie soundtracks, food, technology, philosophy, psychology
     </p>
-    <p>
     <h4>Resume</h4>
+    <p>
     For a downloadable version, click <i><a href={resume} target="_blank">here</a></i>.
     </p>
   </div>
@@ -29,17 +30,17 @@ export const affiliateOrganizations = () => {
   for (let i = 0; i < ABOUT_DATA.organizations.length; i++){
     let organization = ABOUT_DATA.organizations[i];
     affiliateOrganizationList.push(
-      <p>
+      <div key={i}>
           <a href={organization.link} target="_blank"><h6>{organization.title}. </h6></a>
           {organization.text}
-      </p>
+      </div>
     )
   }
   return (
-    <p className="affiliate-organizations">
+    <div className="affiliate-organizations">
       <h4>Affiliate Organizations</h4>
       {affiliateOrganizationList}
-    </p>
+    </div>
     );
 };
 
