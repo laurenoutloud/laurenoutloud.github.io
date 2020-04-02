@@ -1,8 +1,4 @@
 /*Overwrites reactstraps css*/
-.navigationBar {
-    
-}
-
 .navigationBar .navbar {
     background-color: #855b2e;
     display:flex;

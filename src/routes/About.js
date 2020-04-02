@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/About.css";
 
-import {introduction, hobbies, affiliateOrganizations, resumeData, contact} from "../utils/aboutUtils";
+import {introduction, affiliateOrganizations, contact} from "../utils/aboutUtils";
 
 class About extends React.Component {
   render() {
@@ -10,8 +10,6 @@ class About extends React.Component {
         
         <h1>About</h1>
         {introduction()}
-        {resumeData()}
-        {hobbies()}
         {affiliateOrganizations()}
         {contact()}
         <div className="content">

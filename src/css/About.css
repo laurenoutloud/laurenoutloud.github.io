@@ -6,15 +6,5 @@
 .about-image{
     height: 15vmax; 
     margin-right: 1em;
-    float: left;
-}
-
-.about ul {
-    margin-left: 20px;
-}
-
-.about .media {
-    margin: .5em;
-    padding: .5em;
-    border: 2px dashed #adad85;
+    float: right;
 }
