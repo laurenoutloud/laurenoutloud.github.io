@@ -5,8 +5,10 @@
 
 .about-image{
     height: 15vmax; 
-    margin-right: 1em;
     float: right;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #adad85;
 }
 
 .affiliate-organizations h6{
