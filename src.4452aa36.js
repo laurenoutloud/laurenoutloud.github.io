@@ -77,7 +77,7 @@ var e=require("./setPrototypeOf");function r(r,t){if("function"!=typeof t&&null!
 },{"./setPrototypeOf":"Jibl"}],"q2ZE":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ABOUT_DATA=void 0;var o={organizations:[{title:"Women Who Code Tokyo",link:"https://www.womenwhocode.com/tokyo",text:'With WWC Tokyo I facilitated and lead a group discussion on diversity and women in the workplace at Microsoft Tokyo\'s "Women in Tech" event.'},{title:"Alpha Kappa Psi",link:"https://akpsi.org/",text:"Through Alpha Kappa Psi I have been able to network with professionals across the board, I have developed essential leadership skills by holding chair positions such as Historian and attending workshops, and my communication and my public speaking skills have grown substantially."}]};exports.ABOUT_DATA=o;
 },{}],"PeOg":[function(require,module,exports) {
-module.exports="/laurenoutloud.github.io/resume.4f18e6a9.pdf";
+module.exports="/laurenoutloud.github.io/resume.102c6114.pdf";
 },{}],"lszy":[function(require,module,exports) {
 module.exports="/laurenoutloud.github.io/graduate-photo.97a9aa0e.jpg";
 },{}],"aetX":[function(require,module,exports) {
@@ -376,4 +376,4 @@ module.exports="/laurenoutloud.github.io/logo2.23f681e7.png";
 },{"@babel/runtime/helpers/classCallCheck":"ZBnv","@babel/runtime/helpers/createClass":"NoOd","@babel/runtime/helpers/possibleConstructorReturn":"GFCP","@babel/runtime/helpers/getPrototypeOf":"WQgz","@babel/runtime/helpers/inherits":"qngw","react":"HdMw","react-router-dom":"rx6s","./routes/About":"xccN","./routes/Projects":"C3X0","./components/NavigationBar":"D4Y7","./css/App.css":"H97Y"}],"H99C":[function(require,module,exports) {
 "use strict";var e=s(require("react")),r=s(require("react-dom")),t=require("react-router-dom");require("bootstrap/dist/css/bootstrap.min.css");var u=s(require("./App"));function s(e){return e&&e.__esModule?e:{default:e}}require("./css/index.css"),r.default.render(e.default.createElement(t.BrowserRouter,null,e.default.createElement(u.default,null)),document.getElementById("root"));
 },{"react":"HdMw","react-dom":"X9zx","react-router-dom":"rx6s","bootstrap/dist/css/bootstrap.min.css":"H97Y","./App":"FLHj","./css/index.css":"H97Y"}]},{},["H99C"], null)
-//# sourceMappingURL=/laurenoutloud.github.io/src.ea09403b.js.map
+//# sourceMappingURL=/laurenoutloud.github.io/src.4452aa36.js.map
