@@ -26,7 +26,7 @@ export const getProjects = () => {
   for (let i = 0; i < PROJECT_DATA.projects.length; i++) {
     let project = PROJECT_DATA.projects[i];
     projectList.push(
-      <Card>
+      <Card key={i}>
           <CardHeader tag="h3">{project.title}</CardHeader>
         <CardBody>
           <img width="100%" src={project.image}/>
