@@ -8,16 +8,8 @@
     float: left;
 }
 
-.about .card-deck{
-    flex-flow: column wrap;
-}
-
-.about .card {
-    margin: 1em;
-}
-
-.about .card-img {
-    width: 150px;
+.about ul {
+    margin-left: 20px;
 }
 
 .about .media {

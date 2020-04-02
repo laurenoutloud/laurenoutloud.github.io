@@ -18,7 +18,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/about" render={() => <About />} />
             <Route exact path="/contact" render={() => <Contact />} />
-            <Route exact path="/" render={() => <Home />} />
+            <Route exact path="/" render={() => <Projects />} />
             <Route exact path="/projects" render={() => <Projects />} />
             <Route exact path="/resume" render={() => <Resume />} />
           </Switch>
