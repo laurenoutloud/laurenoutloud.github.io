@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 /*Overwrites reactstraps css*/
+
+
 .navigationBar .navbar {
     background-color: #855b2e;
     display:flex;
@@ -11,13 +15,13 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    font-family: Papyrus, Segoe Print;
+    font-family: 'Special Elite', cursive;
 }
 
 .navbar p {
     font-style: italic;
     color: hsla(0,0%,100%,.5);
-    font-family: Papyrus, Segoe Print;
+    font-family: 'Special Elite', cursive;
 }
 
 .navbar a{
