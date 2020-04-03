@@ -1,6 +1,7 @@
 .projects .project-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projects .card {
