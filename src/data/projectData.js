@@ -55,14 +55,6 @@ const PROJECT_DATA = {
         documentationLink: safeTouchPDF,
     },
     {
-      image: whnImage,
-      title: "What's HappNin",
-      techStack: "Android Studio, Java",
-      text:
-        "What’s HappNin is an application designed for anyone who is interested in connecting instantaneously with their friends based on their real-time location and activities that are currently taking place.",
-        documentationLink: whnPDF
-    },
-    {
       image: selfCheckoutImage,
       title: "Self Checkout Simulator",
       techStack: "Java, JSP, MySql, OOP",
