@@ -5,6 +5,7 @@ import safeTouchImage from "../images/projects/safetouch.jpg";
 import selfCheckoutImage from "../images/projects/selfcheckout.jpg";
 import studyStationImage from "../images/projects/studystation.jpg";
 import personalWebsiteImage from "../images/projects/website.png";
+import timelineImage from "../images/projects/timeline.jpg";
 import whnImage from "../images/projects/whn.jpg";
 import safeTouchPDF from "../documents/SafeTouch_SRS.pdf";
 import whnPDF from "../documents/WhatsHappNin_SRS.pdf";
@@ -12,6 +13,14 @@ import studyStationPDF from "../documents/StudyStationFall2016Portfolio.pdf";
 
 const PROJECT_DATA = {
   projects: [
+    {
+      image: timelineImage,
+      title: "Timeline",
+      techStack: "REST, JavaScript, HTML, CSS",
+      text:"Timeline web application integrated with JSONPlaceholder REST API to generate sample data",
+      codeLink: "https://github.com/laurenoutloud/timeline",
+      liveLink: "https://laurenoutloud.github.io/timeline/"
+    },
     {
       image: restaurantMenuImage,
       title: "Restaurant Menu",
