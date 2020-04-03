@@ -1,5 +1,5 @@
 import everdayGamesImage from "../images/everydayGames.jpg"
-import boggleImage from "../images/projects/boggle.jpg";
+import restaurantMenuImage from "../images/projects/restaurantMenu.jpg";
 import MakeOrderImage from "../images/projects/makeorderrequest.png";
 import safeTouchImage from "../images/projects/safetouch.jpg";
 import selfCheckoutImage from "../images/projects/selfcheckout.jpg";
@@ -12,6 +12,14 @@ import studyStationPDF from "../documents/StudyStationFall2016Portfolio.pdf";
 
 const PROJECT_DATA = {
   projects: [
+    {
+      image: restaurantMenuImage,
+      title: "Restaurant Menu",
+      techStack: "Firebase, JavaScript, HTML, CSS",
+      text:"Simple restaurant menu app to practice integrating web apps with Firebase.",
+      codeLink: "https://github.com/laurenoutloud/restaurant-menu",
+      liveLink: "https://laurenoutloud.github.io/restaurant-menu/"
+    },
     {
       image: personalWebsiteImage,
       title: "Personal Website",
