@@ -4,15 +4,22 @@ import MakeOrderImage from "../images/projects/makeorderrequest.png";
 import safeTouchImage from "../images/projects/safetouch.jpg";
 import selfCheckoutImage from "../images/projects/selfcheckout.jpg";
 import studyStationImage from "../images/projects/studystation.jpg";
+import randomVideoPlayerImage from "../images/projects/randomVideoPlayer.jpg";
 import personalWebsiteImage from "../images/projects/website.png";
 import timelineImage from "../images/projects/timeline.jpg";
-import whnImage from "../images/projects/whn.jpg";
 import safeTouchPDF from "../documents/SafeTouch_SRS.pdf";
-import whnPDF from "../documents/WhatsHappNin_SRS.pdf";
 import studyStationPDF from "../documents/StudyStationFall2016Portfolio.pdf";
 
 const PROJECT_DATA = {
   projects: [
+    {
+      image: randomVideoPlayerImage,
+      title: "Random Video Player",
+      techStack: "REST, JavaScript, YouTube API, Random Word API",
+      text:"Web application that uses random word API to generate random YouTube videos from YouTube Data API",
+      codeLink: "https://github.com/laurenoutloud/random-video-player",
+      liveLink: "https://laurenoutloud.github.io/random-video-player/"
+    },
     {
       image: timelineImage,
       title: "Timeline",
