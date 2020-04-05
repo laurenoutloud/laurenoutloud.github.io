@@ -7,11 +7,20 @@ import studyStationImage from "../images/projects/studystation.jpg";
 import randomVideoPlayerImage from "../images/projects/randomVideoPlayer.jpg";
 import personalWebsiteImage from "../images/projects/website.png";
 import timelineImage from "../images/projects/timeline.jpg";
+import bulletinBoardImage from "../images/projects/bulletinBoard.jpg";
 import safeTouchPDF from "../documents/SafeTouch_SRS.pdf";
 import studyStationPDF from "../documents/StudyStationFall2016Portfolio.pdf";
 
 const PROJECT_DATA = {
   projects: [
+    {
+      image: bulletinBoardImage,
+      title: "Bulletin Board",
+      techStack: "CSS, JavaScript",
+      text:"Web application lets you view, add, and delete messages from a bulletin board",
+      codeLink: "https://github.com/laurenoutloud/bulletin-board",
+      liveLink: "https://laurenoutloud.github.io/bulletin-board/"
+    },
     {
       image: randomVideoPlayerImage,
       title: "Random Video Player",
