@@ -42,7 +42,7 @@ class NavigationBar extends React.Component {
               <NavLink tag={Link} to="/about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/projects">Projects</NavLink>
+              <NavLink tag={Link} to="/projects">Portfolio</NavLink>
             </NavItem>
             
             
