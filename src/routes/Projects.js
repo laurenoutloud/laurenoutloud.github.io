@@ -8,7 +8,8 @@ class Projects extends React.Component {
       <div className="projects">
         <h1>Portfolio</h1>
         <p>
-          For additional information, please checkout my github by{" "}
+          Please feel free to explore some of my personal projects outlined below.
+          For additional information, you can checkout my github by{" "}
           <a href="https://github.com/laurenoutloud" target="_blank">
             clicking here!
           </a>

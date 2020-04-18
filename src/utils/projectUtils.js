@@ -11,7 +11,7 @@ function getDocumentationLink(link) {
 
 function getLiveLink(link) {
   if (link) {
-    return (<Button color="success" href={link} target="_blank">Live</Button>);
+    return (<Button color="success" href={link} target="_blank">Explore</Button>);
   }
 }
 

@@ -8,12 +8,20 @@
 }
 
 .brandContent {
-    font-size: 6.25vmin;
-    color: white;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Special Elite', cursive;
+}
+
+.brandContent .title {
+    font-size: 6.25vmin;
+    color: white;
+    padding: 0;
+}
+
+.brandContent .position {
+    font-size: calc(14px + 0.5vw);
 }
 
 .navbar p {
