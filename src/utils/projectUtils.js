@@ -17,7 +17,7 @@ function getLiveLink(link) {
 
 function getCodeLink(link) {
   if (link) {
-    return (<Button color="info" href={link} target="_blank">Code</Button>);
+    return (<Button color="info" href={link} target="_blank">View Code</Button>);
   }
 }
 
