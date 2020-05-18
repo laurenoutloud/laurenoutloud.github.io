@@ -10,9 +10,18 @@ import timelineImage from "../images/projects/timeline.jpg";
 import bulletinBoardImage from "../images/projects/bulletinBoard.jpg";
 import safeTouchPDF from "../documents/SafeTouch_SRS.pdf";
 import studyStationPDF from "../documents/StudyStationFall2016Portfolio.pdf";
+import flashCardAppImage from "../images/projects/flashcardapp.png";
 
 const PROJECT_DATA = {
   projects: [
+    {
+      image: flashCardAppImage,
+      title: "Flash Card App",
+      techStack: "Amazon Web Services",
+      text:"Flash card application built using Amazon S3, Amazon API Gateway, AWS Lambda, and Amazon DynamoDB",
+      codeLink: "https://github.com/laurenoutloud/flashcard-web-app",
+      liveLink: "http://lauren-flashcard-app.s3-website-us-east-1.amazonaws.com/"
+    },
     {
       image: bulletinBoardImage,
       title: "Bulletin Board",
