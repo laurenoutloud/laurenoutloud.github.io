@@ -11,9 +11,18 @@ import bulletinBoardImage from "../images/projects/bulletinBoard.jpg";
 import safeTouchPDF from "../documents/SafeTouch_SRS.pdf";
 import studyStationPDF from "../documents/StudyStationFall2016Portfolio.pdf";
 import flashCardAppImage from "../images/projects/flashcardapp.png";
+import usaaCarBuyingImage from "../images/projects/usaaCarBuyingService.png";
 
 const PROJECT_DATA = {
   projects: [
+    {
+      
+      image: usaaCarBuyingImage,
+      title: "USAA Car Buying Service",
+      techStack: "React, Redux, Jest",
+      text:"USAA Car Buying Service web application",
+      liveLink: "https://www.usaa.com/my/car-buying-selling/buying"
+    },
     {
       image: flashCardAppImage,
       title: "Flash Card App",
